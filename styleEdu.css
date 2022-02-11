@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(images/Education.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top:50px;
+  margin-left:50px;
+  font-family: Lucida Console, monospace;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-box{
+width: 90%;
+color: #D0ECE7;
+position: absolute;
+top: 50%
+left: 50%
+transform: translate(-50%,-50%);
+text-align: center;
+}
+
+.text-box img{
+max-width: 100%;
+height: auto;
+margin-top: 35px;
+}
+
+.text-box h1{
+font-size: 25px;
+margin-top: 20px;
+}
+
+.text-box h2{
+font-size: 18px;
+margin-top: 15px;
+}
+
+.text-box h3{
+font-size: 25px;
+margin-top: 20px;
+}
+
+.text-box h4{
+font-size: 18px;
+margin-top: 15px;
+}
+
+.topnav{
+overflow: hidden;
+margin-top: -10px;
+margin-left: -10px;
+}
+
+.topnav a {
+float: left;
+color: grey;
+text-align: center;
+padding: 10px 100px;
+text-decoration: none;
+font-size: 15px;
+}
+
+.topnav a:hover {
+background-color: #D0ECE7
+}
+
+.topnav a.active {
+background-color: #D0ECE7
+  }
+
+  @media(max-width: 700px){
+    .text-box h1{
+    font-size: 30px;
+    margin-top: 10px;
+    }
+    .topnav a{
+      float: left;
+      color: grey;
+      text-align: center;
+      padding: 5px 50px;
+      text-decoration: none;
+      font-size: 15px;
+    }
